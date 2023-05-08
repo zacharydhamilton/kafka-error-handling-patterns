@@ -1,0 +1,28 @@
+{
+    "type": "record",
+    "name": "PizzaSauce",
+    "namespace": "com.example.objects",
+    "version": "1",
+    "fields": [
+        {
+            "name": "pizza",
+            "type": "string",
+            "doc": "Identifier of the pizza"
+        },
+        {
+            "name": "part",
+            "type": "string",
+            "doc": "Part of the pizza this relates to"
+        },
+        {
+            "name": "kind",
+            "type": "string",
+            "doc": "Kind of pizza sauce"
+        },
+        {
+            "name": "amount",
+            "type": "string",
+            "doc": "Amount of the pizza sauce"
+        }
+    ]
+}

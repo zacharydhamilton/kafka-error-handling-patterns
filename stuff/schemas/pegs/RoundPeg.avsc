@@ -1,0 +1,13 @@
+{
+    "type": "record",
+    "name": "RoundPeg",
+    "namespace": "com.example.objects",
+    "version": "1",
+    "fields": [
+        {
+            "name": "diameter",
+            "type": "int",
+            "doc": "Diameter of the round peg face"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "type": "record",
+    "name": "Redirect",
+    "namespace": "com.example.objects",
+    "version": "1",
+    "fields": [
+        {
+            "name": "id",
+            "type": "string",
+            "doc": "An ID used to identify events to redirect"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "type": "record",
+    "name": "PizzaTopping",
+    "namespace": "com.example.objects",
+    "version": "1",
+    "fields": [
+        {
+            "name": "pizza",
+            "type": "string",
+            "doc": "Identifier of the pizza"
+        },
+        {
+            "name": "part",
+            "type": "string",
+            "doc": "Part of the pizza this relates to"
+        },
+        {
+            "name": "kind",
+            "type": "string",
+            "doc": "Kind of pizza topping"
+        },
+        {
+            "name": "amount",
+            "type": "string",
+            "doc": "Amount of the pizza topping"
+        },
+        {
+            "name": "dsitribution",
+            "type": "string",
+            "doc": "How much of the pizza to cover with the pizza topping"
+        }
+    ]
+}

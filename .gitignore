@@ -1,0 +1,11 @@
+# Java properties files with secrets
+dlq/producer.properties
+pattern-two/pattern2producer/producer.properties
+pattern-two/pattern2retrier/streams.properties
+pattern-three/pattern3producer/producer.properties
+pattern-three/pattern3retrier/streams.properties
+
+# Env secrets for Terraform 
+stuff/terraform/env.sh
+stuff/terraform/.terraform*
+stuff/terraform/terraform*

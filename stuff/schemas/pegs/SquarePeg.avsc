@@ -1,0 +1,13 @@
+{
+    "type": "record",
+    "name": "SquarePeg",
+    "namespace": "com.example.objects",
+    "version": "1",
+    "fields": [
+        {
+            "name": "side",
+            "type": "int",
+            "doc": "Length of each side of the square peg face"
+        }
+    ]
+}

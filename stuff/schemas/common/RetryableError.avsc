@@ -1,0 +1,28 @@
+{
+    "type": "record",
+    "name": "RetryableError",
+    "namespace": "com.example.objects",
+    "version": "1",
+    "fields": [
+        {
+            "name": "exception",
+            "type": "string",
+            "doc": "Exception caught during call execution"
+        },
+        {
+            "name": "message",
+            "type": "string",
+            "doc": "Description of the failure"
+        },
+        {
+            "name": "object",
+            "type": "string",
+            "doc": "Classname of the original event"
+        },
+        {
+            "name": "content",
+            "type": "string",
+            "doc": "Stringified content of original event"
+        }
+    ]
+}
